@@ -5,6 +5,7 @@ from json import JSONDecodeError
 
 
 def has_changed(file, last):
+    """Return (changed, parsed JSON), retaining last on missing or unreadable input."""
     try:
         with open(file, "r", encoding="utf-8") as source:
             current = json.load(source)
@@ -17,6 +18,10 @@ def has_changed(file, last):
 
 
 def publish(file):
+    """Stage and commit file changes, then push; propagate Git and OS failures.
+
+    Push even without a staged diff so a previously failed push can be retried.
+    """
     subprocess.run(["git", "add", "--", file], check=True)
     staged_changes = subprocess.run(
         ["git", "diff", "--cached", "--quiet", "--", file],
