@@ -1,7 +1,7 @@
 
-# Chaotic ATLAS Restart Toolkit – Standalone GUI + GitHub Sync + Discord Integration
+# CMG ATLAS Restart Overlay Plugin – Standalone GUI + GitHub Sync + Discord Integration
 
-This toolkit is a fully automated solution for managing your ATLAS server's restart countdown, grid status, and integration with GitHub and Discord.
+This Chaotic Minds Gaming (CMG) toolkit is a solution for managing your ATLAS server's restart countdown, grid status, and integration with GitHub and Discord.
 
 ## 🛠️ What’s Inside:
 
@@ -32,7 +32,7 @@ This toolkit is a fully automated solution for managing your ATLAS server's rest
 
 ### Step 2: Build the `.exe` File
 1. **Download the Full Toolkit** from the zip file:  
-   [Download Chaotic ATLAS Restart Toolkit](sandbox:/mnt/data/chaotic-atlas-restart-toolkit.zip)
+   [Download CMG ATLAS Restart Overlay Plugin](sandbox:/mnt/data/chaotic-atlas-restart-toolkit.zip)
 
 2. **Extract the zip** to a folder, e.g., `C:tlas-restart-toolkit`.
 
